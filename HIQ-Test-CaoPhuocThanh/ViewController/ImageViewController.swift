@@ -79,7 +79,7 @@ class ImageViewController: ViewController {
                     print("CLOSE")
                 case .delete:
                     print("DELETE")
-                    self.deleteAnaimationCell(indexPath: indexPath)
+                    self.collectionView.deleteAnaimationCell(indexPath: indexPath)
                 case .share:
                     print("SHARE")
                 case .edit:
@@ -97,38 +97,6 @@ class ImageViewController: ViewController {
                 popoverController.permittedArrowDirections = []
             }
             self.present(vc, animated: false, completion: nil)
-        }
-    }
-    
-    func deleteAnaimationCell(indexPath: IndexPath) {
-        if let deleteCell = self.collectionView.cellForItem(at: indexPath) {
-            UIView.animate(withDuration: 2,
-                           delay: 0.2,
-                           usingSpringWithDamping: 0.8,
-                           initialSpringVelocity: 0.2,
-                           options: [],
-                           animations: {
-                            (deleteCell as? ImageViewCollectionViewCell)?.deleteAnimation(completion: { (_) in
-                                deleteCell.isHidden = true
-                            })
-            }, completion: { (_) in
-                var tempCell = deleteCell
-                for i in 1...3 {
-                    if let nextCell = self.collectionView.cellForItem(at: IndexPath.init(row: indexPath.row + i, section: indexPath.section)) {
-                        if nextCell.frame.origin.y == tempCell.frame.origin.y && nextCell.isHidden == false {
-                            UIView.animate(withDuration: 2,
-                                           delay: 0.5 * Double(i),
-                                           usingSpringWithDamping: 0.8,
-                                           initialSpringVelocity: 0.2,
-                                           options: [],
-                                           animations: {
-                                            nextCell.transform = CGAffineTransform(translationX: nextCell.bounds.origin.x - (deleteCell.bounds.width - nextCell.transform.tx), y: nextCell.bounds.origin.y)
-                            }, completion: { (_) in })
-                            tempCell = nextCell
-                        }
-                    }
-                }
-            })
         }
     }
     

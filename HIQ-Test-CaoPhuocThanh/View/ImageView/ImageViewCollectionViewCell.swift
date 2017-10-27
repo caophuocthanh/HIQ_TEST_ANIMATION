@@ -20,8 +20,6 @@ class ImageViewCollectionViewCell: CollectionViewCell {
     }
     
     let imageView: ImageView = ImageView()
-    fileprivate var rightContrainstImage: NSLayoutConstraint!
-    fileprivate var leftContrainstImage: NSLayoutConstraint!
     
     override func prepareForReuse() {
         super.prepareForReuse()
@@ -42,36 +40,8 @@ class ImageViewCollectionViewCell: CollectionViewCell {
     override func addContraints() {
         super.addContraints()
         
-        self.contentView.visual("H:|-4-[v]", views: ["v": self.imageView])
-        
-        let left = NSLayoutConstraint.constraints(
-            withVisualFormat: "H:|-4-[v]",
-            options: [],
-            metrics: nil,
-            views: ["v": self.imageView])
-        self.leftContrainstImage = left[0]
-        self.contentView.addConstraints(left)
-        
-        let right = NSLayoutConstraint.constraints(
-            withVisualFormat: "H:[v]-4-|",
-            options: [],
-            metrics: nil,
-            views: ["v": self.imageView])
-        self.rightContrainstImage = right[0]
-        self.contentView.addConstraints(right)
-        
+        self.contentView.visual("H:|-4-[v]-4-|", views: ["v": self.imageView])
         self.contentView.visual("V:|-4-[v]-4-|", views: ["v": self.imageView])
     }
-    
-    func deleteAnimation(completion: @escaping (Bool) -> ()) {
-        UIView.animate(withDuration: 2,
-                       delay: 0,
-                       usingSpringWithDamping: 0.8,
-                       initialSpringVelocity: 0.2,
-                       options: [],
-                       animations: {
-                        self.imageView.transform = CGAffineTransform(translationX: -self.contentView.frame.width, y: 0)
-        }, completion: completion)
-        
-    }
+
 }

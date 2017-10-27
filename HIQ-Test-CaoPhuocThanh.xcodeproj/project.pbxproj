@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0551A4BF1FA3323500A7B823 /* Date+Formater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551A4BE1FA3323500A7B823 /* Date+Formater.swift */; };
+		0551A4C11FA39E8D00A7B823 /* ImageViewCollectionViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551A4C01FA39E8D00A7B823 /* ImageViewCollectionViewAnimation.swift */; };
+		0551A4C51FA3A1F500A7B823 /* ImageViewCollectionViewCellAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551A4C41FA3A1F500A7B823 /* ImageViewCollectionViewCellAnimation.swift */; };
 		05B776431FA24465002FD073 /* MenuImageModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B776421FA24465002FD073 /* MenuImageModalView.swift */; };
 		05B776451FA245EB002FD073 /* MenuImageModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B776441FA245EB002FD073 /* MenuImageModalViewController.swift */; };
 		05B7764D1FA26167002FD073 /* CircelMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B7764C1FA26167002FD073 /* CircelMenuView.swift */; };
@@ -68,6 +70,8 @@
 
 /* Begin PBXFileReference section */
 		0551A4BE1FA3323500A7B823 /* Date+Formater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formater.swift"; sourceTree = "<group>"; };
+		0551A4C01FA39E8D00A7B823 /* ImageViewCollectionViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCollectionViewAnimation.swift; sourceTree = "<group>"; };
+		0551A4C41FA3A1F500A7B823 /* ImageViewCollectionViewCellAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCollectionViewCellAnimation.swift; sourceTree = "<group>"; };
 		05B776421FA24465002FD073 /* MenuImageModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImageModalView.swift; sourceTree = "<group>"; };
 		05B776441FA245EB002FD073 /* MenuImageModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImageModalViewController.swift; sourceTree = "<group>"; };
 		05B7764C1FA26167002FD073 /* CircelMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircelMenuView.swift; sourceTree = "<group>"; };
@@ -321,6 +325,8 @@
 				05CFCD801FA2213C00E1BC85 /* ImageViewCollectionViewCell.swift */,
 				05CFCD851FA225EF00E1BC85 /* ImageViewCollectionHeaderViewCell.swift */,
 				05B776541FA2F08B002FD073 /* SectionImageViewModel.swift */,
+				0551A4C01FA39E8D00A7B823 /* ImageViewCollectionViewAnimation.swift */,
+				0551A4C41FA3A1F500A7B823 /* ImageViewCollectionViewCellAnimation.swift */,
 			);
 			path = ImageView;
 			sourceTree = "<group>";
@@ -542,6 +548,8 @@
 				05CFCD421FA1B92600E1BC85 /* NavigationController.swift in Sources */,
 				05CFCD401FA1B7A000E1BC85 /* ViewController.swift in Sources */,
 				05B776551FA2F08B002FD073 /* SectionImageViewModel.swift in Sources */,
+				0551A4C51FA3A1F500A7B823 /* ImageViewCollectionViewCellAnimation.swift in Sources */,
+				0551A4C11FA39E8D00A7B823 /* ImageViewCollectionViewAnimation.swift in Sources */,
 				05CFCD101FA1B55500E1BC85 /* MainViewController.swift in Sources */,
 				05CFCD861FA225EF00E1BC85 /* ImageViewCollectionHeaderViewCell.swift in Sources */,
 				05CFCD781FA1E38000E1BC85 /* UIView+Contriants+Extension.swift in Sources */,
