@@ -114,7 +114,6 @@ class ImageViewController: ViewController {
             }, completion: { (_) in
                 var tempCell = deleteCell
                 for i in 1...3 {
-                    
                     if let nextCell = self.collectionView.cellForItem(at: IndexPath.init(row: indexPath.row + i, section: indexPath.section)) {
                         if nextCell.frame.origin.y == tempCell.frame.origin.y && nextCell.isHidden == false {
                             UIView.animate(withDuration: 2,
@@ -123,7 +122,7 @@ class ImageViewController: ViewController {
                                            initialSpringVelocity: 0.2,
                                            options: [],
                                            animations: {
-                                            nextCell.transform = CGAffineTransform(translationX: nextCell.bounds.origin.x - (tempCell.bounds.width - nextCell.transform.tx), y: nextCell.bounds.origin.y)
+                                            nextCell.transform = CGAffineTransform(translationX: nextCell.bounds.origin.x - (deleteCell.bounds.width - nextCell.transform.tx), y: nextCell.bounds.origin.y)
                             }, completion: { (_) in })
                             tempCell = nextCell
                         }
