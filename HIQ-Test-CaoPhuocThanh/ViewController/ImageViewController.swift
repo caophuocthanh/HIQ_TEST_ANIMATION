@@ -113,11 +113,9 @@ class ImageViewController: ViewController {
                             })
             }, completion: { (_) in
                 var tempCell = deleteCell
-                print("BOUNS tempCell: \(tempCell)", tempCell.bounds)
                 for i in 1...3 {
                     
                     if let nextCell = self.collectionView.cellForItem(at: IndexPath.init(row: indexPath.row + i, section: indexPath.section)) {
-                        print("BOUNS nextCell: \(nextCell)", nextCell.bounds)
                         if nextCell.frame.origin.y == tempCell.frame.origin.y && nextCell.isHidden == false {
                             UIView.animate(withDuration: 2,
                                            delay: 0.5 * Double(i),
@@ -128,7 +126,6 @@ class ImageViewController: ViewController {
                                             nextCell.transform = CGAffineTransform(translationX: nextCell.bounds.origin.x - (tempCell.bounds.width - nextCell.transform.tx), y: nextCell.bounds.origin.y)
                             }, completion: { (_) in })
                             tempCell = nextCell
-                            print("BOUNS tttttt: \(tempCell)", tempCell.bounds)
                         }
                     }
                 }
@@ -149,7 +146,7 @@ class ImageViewController: ViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.collectionView.animateTable(withDuration: 1.5)
+        self.collectionView.animateTable(withDuration: 1.0)
     }
     
     override func viewWillAppear(_ animated: Bool) {

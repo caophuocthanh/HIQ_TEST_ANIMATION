@@ -41,7 +41,7 @@ class MenuImageModalViewController: UIViewController {
             UIView.animate(withDuration: 5.0, delay: 0.125, options: [.repeat, .curveLinear] , animations: {
                 self.circelMenuView.isHidden = false
                 self.menuImageModalView.expandingCircelLayerAnimation()
-                self.circelMenuView.zoom(duration: 1.5, force: 2)
+                self.circelMenuView.zoom(duration: 1.0, force: 2)
                 self.circelMenuView.rotate360()
             })
         }
@@ -64,7 +64,7 @@ class MenuImageModalViewController: UIViewController {
         rectShape.path = startShape
         let animation = CABasicAnimation(keyPath: "path")
         animation.toValue = endShape
-        animation.duration = 1.5
+        animation.duration = 1.0
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
         animation.fillMode = kCAFillModeBoth
         animation.isRemovedOnCompletion = false

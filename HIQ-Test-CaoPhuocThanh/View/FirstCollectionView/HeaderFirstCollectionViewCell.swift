@@ -34,10 +34,16 @@ class HeaderFirstCollectionViewCell: CollectionViewCell {
         self.imageView.image = nil
     }
     
+    @objc func updatelabelTime() {
+        self.labelLabel.text = Date.hourNow()
+    }
+    
     override func loadView() {
         super.loadView()
+
+        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updatelabelTime), userInfo: nil, repeats: true)
         
-        self.imageView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.6)
+        self.imageView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.8)
         self.imageView.contentMode = .scaleAspectFill
         self.imageView.layer.masksToBounds = true
         self.imageView.layer.cornerRadius = 8
@@ -45,7 +51,7 @@ class HeaderFirstCollectionViewCell: CollectionViewCell {
         
         self.labelLabel.font = UIFont.boldSystemFont(ofSize: 36)
         self.imageView.addSubviews(self.labelLabel)
-        self.labelLabel.text = "10:00 PM"
+        self.labelLabel.text = "--:--"
         self.labelLabel.textColor = UIColor.white
         
     }

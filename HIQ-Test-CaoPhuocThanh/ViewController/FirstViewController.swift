@@ -46,7 +46,7 @@ class FirstViewController: ViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.collectionView.animateTable(withDuration: 1.5)
+        self.collectionView.animateTable(withDuration: 1.0)
     }
     
     override func viewWillAppear(_ animated: Bool) {

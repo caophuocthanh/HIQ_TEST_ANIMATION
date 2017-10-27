@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0551A4BF1FA3323500A7B823 /* Date+Formater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551A4BE1FA3323500A7B823 /* Date+Formater.swift */; };
 		05B776431FA24465002FD073 /* MenuImageModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B776421FA24465002FD073 /* MenuImageModalView.swift */; };
 		05B776451FA245EB002FD073 /* MenuImageModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B776441FA245EB002FD073 /* MenuImageModalViewController.swift */; };
 		05B7764D1FA26167002FD073 /* CircelMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B7764C1FA26167002FD073 /* CircelMenuView.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0551A4BE1FA3323500A7B823 /* Date+Formater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formater.swift"; sourceTree = "<group>"; };
 		05B776421FA24465002FD073 /* MenuImageModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImageModalView.swift; sourceTree = "<group>"; };
 		05B776441FA245EB002FD073 /* MenuImageModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImageModalViewController.swift; sourceTree = "<group>"; };
 		05B7764C1FA26167002FD073 /* CircelMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircelMenuView.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				05CFCD4A1FA1C0ED00E1BC85 /* UIView+Animation.swift */,
 				05CFCD711FA1DB3E00E1BC85 /* UIView+Subviews.swift */,
 				05CFCD771FA1E38000E1BC85 /* UIView+Contriants+Extension.swift */,
+				0551A4BE1FA3323500A7B823 /* Date+Formater.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				05CFCD781FA1E38000E1BC85 /* UIView+Contriants+Extension.swift in Sources */,
 				05CFCD611FA1D1D400E1BC85 /* ImageView.swift in Sources */,
 				05CFCD461FA1BCF900E1BC85 /* FirstViewController.swift in Sources */,
+				0551A4BF1FA3323500A7B823 /* Date+Formater.swift in Sources */,
 				05CFCD441FA1BA8F00E1BC85 /* TabBarController.swift in Sources */,
 				05CFCD4F1FA1C6A900E1BC85 /* View.swift in Sources */,
 				05CFCD5F1FA1CF1200E1BC85 /* HeaderFirstCollectionViewCell.swift in Sources */,
