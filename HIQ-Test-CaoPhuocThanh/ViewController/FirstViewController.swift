@@ -15,8 +15,9 @@ class FirstViewController: ViewController {
     fileprivate var firstViewModel: FistCollectionViewModel = {
         let menuViewModels = [MenuViewModel(name: "Documents", image: UIImage(named: "pencil-icon")!, color: UIColor.red),
                               MenuViewModel(name: "Images", image: UIImage(named: "search-icon")!, color: UIColor.orange),
-                              MenuViewModel(name: "Videos", image: UIImage(named: "pencil-icon")!, color: UIColor.lightGray),
+                              MenuViewModel(name: "Videos", image: UIImage(named: "location-icon")!, color: UIColor.lightGray),
                               MenuViewModel(name: "System", image: UIImage(named: "setting-icon")!, color: UIColor.purple),
+                              MenuViewModel(name: "Contacts", image: UIImage(named: "share-icon")!, color: UIColor.green),
                               MenuViewModel(name: "Contacts", image: UIImage(named: "share-icon")!, color: UIColor.green)]
         let imageURLHeaderString = DummyData.dumpImage
         let firstViewModel = FistCollectionViewModel(imageURLHeaderString: imageURLHeaderString, menuViewModels: menuViewModels)
@@ -46,7 +47,7 @@ class FirstViewController: ViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.collectionView.animateTable(withDuration: 1.0)
+        self.collectionView.animateTable(withDuration: 2.0)
     }
     
     override func viewWillAppear(_ animated: Bool) {

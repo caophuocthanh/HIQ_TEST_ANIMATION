@@ -91,9 +91,9 @@ class ImageViewController: ViewController {
                 }
             })
             
-            if let popoverController = vc.popoverPresentationController {
-                popoverController.sourceView = self.view
-                popoverController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+            if let popoverController = vc.popoverPresentationController, let cell = self.collectionView.cellForItem(at: indexPath) {
+                popoverController.sourceView = cell
+                popoverController.sourceRect = CGRect(x: cell.bounds.midX, y: cell.bounds.midY, width: 0, height: 0)
                 popoverController.permittedArrowDirections = []
             }
             self.present(vc, animated: false, completion: nil)
@@ -145,7 +145,7 @@ class ImageViewController: ViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.collectionView.animateTable(withDuration: 1.0)
+        self.collectionView.animateTable(withDuration: 2.0)
     }
     
     override func viewWillAppear(_ animated: Bool) {

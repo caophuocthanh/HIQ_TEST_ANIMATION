@@ -59,7 +59,7 @@ class MenuImageModalViewController: UIViewController {
         rectShape.fillColor = UIColor.blue.withAlphaComponent(0.4).cgColor
         
         let startShape = UIBezierPath(roundedRect: bounds, cornerRadius: 30).cgPath
-        let endShape = UIBezierPath(roundedRect: CGRect(x: -450, y: -450, width: 1000, height: 1000), cornerRadius: 500).cgPath
+        let endShape = UIBezierPath(roundedRect: CGRect(x: -UIScreen.main.bounds.width, y: -UIScreen.main.bounds.height, width: UIScreen.main.bounds.width*2, height: UIScreen.main.bounds.width*2), cornerRadius: 500).cgPath
         
         rectShape.path = startShape
         let animation = CABasicAnimation(keyPath: "path")

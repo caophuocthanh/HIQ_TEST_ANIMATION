@@ -60,7 +60,7 @@ class HeaderFirstCollectionViewCell: CollectionViewCell {
         super.addContraints()
         
         self.contentView.visual("H:|-4-[v]-4-|", views: ["v": self.imageView])
-        self.contentView.visual("V:|-[v]-4-|", views: ["v": self.imageView])
+        self.contentView.visual("V:|-[v]-36-|", views: ["v": self.imageView])
         
         self.imageView.visual("H:|-[v]-|", views: ["v": labelLabel])
         self.labelLabel.visualAlignV(self.imageView)

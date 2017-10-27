@@ -38,6 +38,7 @@ class ImageViewCollectionView: CollectionView {
 extension ImageViewCollectionView: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.cellForItem(at: indexPath)?.pop(0.5)
         self._handleDidSelectedAtCell?(indexPath)
     }
     

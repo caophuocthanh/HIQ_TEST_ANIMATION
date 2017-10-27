@@ -26,8 +26,8 @@ class FirstCollectionView: CollectionView {
         self.delegate = self
         self.dataSource = self
         
-        self.layout.minimumLineSpacing = 20
-        self.layout.minimumInteritemSpacing = 0
+        self.layout.minimumLineSpacing = 10
+        self.layout.minimumInteritemSpacing = 8
         self.showsVerticalScrollIndicator = false
         self.showsHorizontalScrollIndicator = false
     }
@@ -60,9 +60,9 @@ extension FirstCollectionView: UICollectionViewDelegateFlowLayout {
         let section: Section = Section(rawValue: indexPath.section)!
         switch section {
         case .header:
-            return CGSize(width: self.bounds.width, height: (self.bounds.height - 120)/2)
+            return CGSize(width: self.bounds.width, height: (self.bounds.height - 80)/2)
         case .menus:
-            return CGSize(width: self.bounds.width/3, height: self.bounds.width/3)
+            return CGSize(width: (self.bounds.width - 16)/3, height: self.bounds.width/3)
         }
     }
     
