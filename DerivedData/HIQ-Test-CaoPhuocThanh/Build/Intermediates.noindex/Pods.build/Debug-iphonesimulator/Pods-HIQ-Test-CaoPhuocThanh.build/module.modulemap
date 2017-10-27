@@ -1,0 +1,6 @@
+framework module Pods_HIQ_Test_CaoPhuocThanh {
+  umbrella header "Pods-HIQ-Test-CaoPhuocThanh-umbrella.h"
+
+  export *
+  module * { export * }
+}

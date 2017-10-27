@@ -1,0 +1,63 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FistCollectionViewModel"
+provides-nominal:
+- "22HIQ_Test_CaoPhuocThanh23FistCollectionViewModelV"
+provides-member:
+- ["22HIQ_Test_CaoPhuocThanh23FistCollectionViewModelV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "FistCollectionViewModel"
+- "MenuViewModel"
+- "String"
+depends-member:
+- ["22HIQ_Test_CaoPhuocThanh23FistCollectionViewModelV", "MenuViewModel"]
+- ["22HIQ_Test_CaoPhuocThanh23FistCollectionViewModelV", "String"]
+- ["22HIQ_Test_CaoPhuocThanh23FistCollectionViewModelV", "imageURLHeaderString"]
+- ["22HIQ_Test_CaoPhuocThanh23FistCollectionViewModelV", "init"]
+- ["22HIQ_Test_CaoPhuocThanh23FistCollectionViewModelV", "menuViewModels"]
+depends-nominal:
+- "22HIQ_Test_CaoPhuocThanh23FistCollectionViewModelV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINImage+WebP.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage-umbrella.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImage-umbrella.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINImage+DecodedImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINButton+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINImageView+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/FLAnimatedImageView+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINProgressiveImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteLock.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageDownloadTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageProcessorTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINDataTaskOperation.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/HIQ-Test-CaoPhuocThanh/Bridging-Header.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINURLSessionManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageCategoryManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageCallbacks.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageMacros.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/NSData+ImageDetectors.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageManagerResult.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Modules/module.modulemap"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphoneos/PINRemoteImage/PINRemoteImage.framework/Modules/module.modulemap"
+interface-hash: "1f47527979debde08aab15a67802f35f"

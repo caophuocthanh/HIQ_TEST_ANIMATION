@@ -1,0 +1,362 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageView"
+provides-nominal:
+- "22HIQ_Test_CaoPhuocThanh9ImageViewC"
+provides-member:
+- ["22HIQ_Test_CaoPhuocThanh9ImageViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGRect"
+- "ImageView"
+- "NSCoder"
+- "String"
+- !private "StringLiteralType"
+- "UIImageView"
+- !private "URL"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "URL"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "pin_setImage"]
+- !private ["So15CALayerDelegateP", "pin_updateWithProgress"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So15CALayerDelegateP", ""]
+- !private ["SC6CGRectV", "zero"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pin_setImage"]
+- !private ["s7CVarArgP", "pin_updateWithProgress"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pin_setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "pin_updateWithProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pin_setImage"]
+- !private ["s23CustomStringConvertibleP", "pin_updateWithProgress"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "zero"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "zero"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "error"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "pin_setImage"]
+- !private ["s9EquatableP", "pin_updateWithProgress"]
+- !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9EquatableP", "zero"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "error"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "pin_setImage"]
+- !private ["s8HashableP", "pin_updateWithProgress"]
+- !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s8HashableP", ""]
+- ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "Bool"]
+- ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "CGRect"]
+- ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "NSCoder"]
+- ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "String"]
+- !private ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "URL"]
+- ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "deinit"]
+- ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "init"]
+- ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "loadImage"]
+- !private ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "pin_setImage"]
+- !private ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "pin_updateWithProgress"]
+- !private ["22HIQ_Test_CaoPhuocThanh9ImageViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "pin_setImage"]
+- !private ["So8NSCodingP", "pin_updateWithProgress"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "error"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loadImage"]
+- !private ["So8NSObjectC", "pin_setImage"]
+- !private ["So8NSObjectC", "pin_updateWithProgress"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "error"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "pin_setImage"]
+- !private ["So16NSObjectProtocolP", "pin_updateWithProgress"]
+- !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So22PINRemoteImageCategoryP", "CGRect"]
+- !private ["So22PINRemoteImageCategoryP", "URL"]
+- !private ["So22PINRemoteImageCategoryP", "init"]
+- !private ["So22PINRemoteImageCategoryP", "pin_setImage"]
+- !private ["So22PINRemoteImageCategoryP", "pin_updateWithProgress"]
+- !private ["So22PINRemoteImageCategoryP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So22PINRemoteImageCategoryP", ""]
+- !private ["So27PINRemoteImageManagerResultC", "error"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "CGRect"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "URL"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "pin_setImage"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "pin_updateWithProgress"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "URL"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "pin_setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "pin_updateWithProgress"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "URL"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "pin_setImage"]
+- !private ["So12UIAppearanceP", "pin_updateWithProgress"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "pin_setImage"]
+- !private ["So21UIAppearanceContainerP", "pin_updateWithProgress"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "URL"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "pin_setImage"]
+- !private ["So17UICoordinateSpaceP", "pin_updateWithProgress"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "URL"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "pin_setImage"]
+- !private ["So13UIDynamicItemP", "pin_updateWithProgress"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "pin_setImage"]
+- !private ["So18UIFocusEnvironmentP", "pin_updateWithProgress"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "URL"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "pin_setImage"]
+- !private ["So11UIFocusItemP", "pin_updateWithProgress"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIImageViewC", "Bool"]
+- ["So11UIImageViewC", "CGRect"]
+- ["So11UIImageViewC", "NSCoder"]
+- ["So11UIImageViewC", "String"]
+- !private ["So11UIImageViewC", "URL"]
+- ["So11UIImageViewC", "init"]
+- ["So11UIImageViewC", "loadImage"]
+- !private ["So11UIImageViewC", "pin_setImage"]
+- !private ["So11UIImageViewC", "pin_updateWithProgress"]
+- !private ["So11UIImageViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIImageViewC", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "pin_setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "pin_updateWithProgress"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loadImage"]
+- !private ["So11UIResponderC", "pin_setImage"]
+- !private ["So11UIResponderC", "pin_updateWithProgress"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "pin_setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "pin_updateWithProgress"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "pin_setImage"]
+- !private ["So18UITraitEnvironmentP", "pin_updateWithProgress"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "URL"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "loadImage"]
+- !private ["So6UIViewC", "pin_setImage"]
+- !private ["So6UIViewC", "pin_updateWithProgress"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "URL"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pin_setImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pin_updateWithProgress"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pin_setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pin_updateWithProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "Sb"
+- "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "22HIQ_Test_CaoPhuocThanh9ImageViewC"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So22PINRemoteImageCategoryP"
+- !private "So27PINRemoteImageManagerResultC"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s12StaticStringV"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So11UIImageViewC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "10Foundation3URLV"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINImage+WebP.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage-umbrella.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImage-umbrella.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINImage+DecodedImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINButton+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINImageView+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/FLAnimatedImageView+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINProgressiveImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteLock.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageDownloadTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageProcessorTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINDataTaskOperation.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/HIQ-Test-CaoPhuocThanh/Bridging-Header.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINURLSessionManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageCategoryManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageCallbacks.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageMacros.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/NSData+ImageDetectors.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageManagerResult.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/FLAnimatedImage/FLAnimatedImage.framework/Modules/module.modulemap"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Modules/module.modulemap"
+interface-hash: "bb5efcb08bbaea6a53a533d34a65ddf1"

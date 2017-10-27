@@ -1,0 +1,407 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "View"
+provides-nominal:
+- "22HIQ_Test_CaoPhuocThanh4ViewC"
+provides-member:
+- ["22HIQ_Test_CaoPhuocThanh4ViewC", ""]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "topController"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGRect"
+- "NSCoder"
+- !private "UIApplication"
+- !private "UIColor"
+- "UIView"
+- "UIViewController"
+- "View"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "UIApplication"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "addContraints"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "loadView"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "addContraints"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "loadView"]
+- !private ["s7CVarArgP", "presentedViewController"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "white"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "addContraints"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "loadView"]
+- !private ["s28CustomDebugStringConvertibleP", "presentedViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addContraints"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "loadView"]
+- !private ["s23CustomStringConvertibleP", "presentedViewController"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addContraints"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "keyWindow"]
+- !private ["s9EquatableP", "loadView"]
+- !private ["s9EquatableP", "presentedViewController"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9EquatableP", "white"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addContraints"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "keyWindow"]
+- !private ["s8HashableP", "loadView"]
+- !private ["s8HashableP", "presentedViewController"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s8HashableP", "white"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "addContraints"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadView"]
+- !private ["So8NSCodingP", "presentedViewController"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "white"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "presentedViewController"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "addContraints"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "keyWindow"]
+- ["So8NSObjectC", "loadView"]
+- !private ["So8NSObjectC", "presentedViewController"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "topController"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "addContraints"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "keyWindow"]
+- !private ["So16NSObjectProtocolP", "loadView"]
+- !private ["So16NSObjectProtocolP", "presentedViewController"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "white"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So29UIAccessibilityIdentificationP", "UIApplication"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "addContraints"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "loadView"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "UIApplication"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "addContraints"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "loadView"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "addContraints"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadView"]
+- !private ["So21UIAppearanceContainerP", "presentedViewController"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "presentedViewController"]
+- !private ["So17UICoordinateSpaceP", "UIApplication"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "addContraints"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "loadView"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "UIApplication"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "addContraints"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "loadView"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "addContraints"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadView"]
+- !private ["So18UIFocusEnvironmentP", "presentedViewController"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "UIApplication"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "addContraints"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "loadView"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "addContraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadView"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentedViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "UIApplication"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIViewController"]
+- ["So11UIResponderC", "addContraints"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "keyWindow"]
+- ["So11UIResponderC", "loadView"]
+- !private ["So11UIResponderC", "presentedViewController"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "topController"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "addContraints"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "loadView"]
+- !private ["So30UIResponderStandardEditActionsP", "presentedViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "presentedViewController"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "addContraints"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadView"]
+- !private ["So18UITraitEnvironmentP", "presentedViewController"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "UIApplication"]
+- !private ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIViewController"]
+- ["So6UIViewC", "addContraints"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "loadView"]
+- !private ["So6UIViewC", "rootViewController"]
+- ["So6UIViewC", "topController"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So6UIViewC", ""]
+- !private ["So16UIViewControllerC", "presentedViewController"]
+- !private ["So8UIWindowC", "rootViewController"]
+- ["22HIQ_Test_CaoPhuocThanh4ViewC", "CGRect"]
+- ["22HIQ_Test_CaoPhuocThanh4ViewC", "NSCoder"]
+- !private ["22HIQ_Test_CaoPhuocThanh4ViewC", "UIColor"]
+- ["22HIQ_Test_CaoPhuocThanh4ViewC", "addContraints"]
+- !private ["22HIQ_Test_CaoPhuocThanh4ViewC", "backgroundColor"]
+- ["22HIQ_Test_CaoPhuocThanh4ViewC", "deinit"]
+- ["22HIQ_Test_CaoPhuocThanh4ViewC", "init"]
+- ["22HIQ_Test_CaoPhuocThanh4ViewC", "loadView"]
+- !private ["22HIQ_Test_CaoPhuocThanh4ViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIApplication"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addContraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "loadView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addContraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentedViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So7UIColorC"
+- !private "So18UIContentContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- "22HIQ_Test_CaoPhuocThanh4ViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINImage+WebP.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage-umbrella.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImage-umbrella.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINImage+DecodedImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINButton+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINImageView+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/FLAnimatedImageView+PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINProgressiveImage.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteLock.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageDownloadTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageProcessorTask.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINDataTaskOperation.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/HIQ-Test-CaoPhuocThanh/Bridging-Header.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINURLSessionManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageCategoryManager.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageCallbacks.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageMacros.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/NSData+ImageDetectors.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Headers/PINRemoteImageManagerResult.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/FLAnimatedImage/FLAnimatedImage.framework/Modules/module.modulemap"
+- "/Users/thanh/Development/HIQ-Test-CaoPhuocThanh/DerivedData/HIQ-Test-CaoPhuocThanh/Build/Products/Debug-iphonesimulator/PINRemoteImage/PINRemoteImage.framework/Modules/module.modulemap"
+interface-hash: "077b3d722040f48aa9f1f5439f1e27f7"
