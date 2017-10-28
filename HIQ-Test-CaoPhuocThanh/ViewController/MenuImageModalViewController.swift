@@ -34,18 +34,16 @@ class MenuImageModalViewController: UIViewController {
         var x = sourceRect.origin.x
         var y = sourceRect.origin.y
         
-        print("A:", x, y, "---- B: ", UIScreen.main.bounds.width, UIScreen.main.bounds.height)
-        
         if x + 170 > UIScreen.main.bounds.width {
-            x = UIScreen.main.bounds.width -  (170 + 8)
+            x = UIScreen.main.bounds.width -  (170 + 20)
         } else if x <= 170 {
-            x = 170/2 + 8
+            x = x + 20
         }
         
         if (y + 170) > UIScreen.main.bounds.height {
-            y = UIScreen.main.bounds.height -  (170 + 8)
+            y = UIScreen.main.bounds.height -  (170 + 20)
         } else if y <= 170 {
-            y = 170/2 + 8
+            y = y + 20
         }
         
         self.view.visual("H:|-(x)-[v]", metrics: ["x": x] ,views: ["v": self.circelMenuView])
