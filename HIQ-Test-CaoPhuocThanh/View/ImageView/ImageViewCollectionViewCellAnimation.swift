@@ -11,7 +11,7 @@ import UIKit
 extension ImageViewCollectionViewCell {
 
     func deleteAnimation(completion: @escaping (Bool) -> ()) {
-        UIView.animate(withDuration: 2,
+        UIView.animate(withDuration: 0.8,
                        delay: 0,
                        usingSpringWithDamping: 0.8,
                        initialSpringVelocity: 0.2,

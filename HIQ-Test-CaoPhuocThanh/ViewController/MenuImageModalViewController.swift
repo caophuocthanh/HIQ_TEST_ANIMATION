@@ -13,6 +13,8 @@ class MenuImageModalViewController: UIViewController {
     fileprivate let circelMenuView = CircelMenuView()
     fileprivate let menuImageModalView = MenuImageModalView()
     
+    var sourceRect: CGRect = CGRect(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.width/2, width: 120, height: 120)
+    
     enum MenuImage: Int {
         case close = 0
         case delete
@@ -29,7 +31,26 @@ class MenuImageModalViewController: UIViewController {
         
         self.menuImageModalView.visualInside(self.view, edgeInsets: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
         
-        self.circelMenuView.visualCenter(self.view)
+        var x = sourceRect.origin.x
+        var y = sourceRect.origin.y
+        
+        print("A:", x, y, "---- B: ", UIScreen.main.bounds.width, UIScreen.main.bounds.height)
+        
+        if x + 170 > UIScreen.main.bounds.width {
+            x = UIScreen.main.bounds.width -  (170 + 8)
+        } else if x <= 170 {
+            x = 170/2 + 8
+        }
+        
+        if (y + 170) > UIScreen.main.bounds.height {
+            y = UIScreen.main.bounds.height -  (170 + 8)
+        } else if y <= 170 {
+            y = 170/2 + 8
+        }
+        
+        self.view.visual("H:|-(x)-[v]", metrics: ["x": x] ,views: ["v": self.circelMenuView])
+        self.view.visual("V:|-(y)-[v]", metrics: ["y": y] ,views: ["v": self.circelMenuView])
+        
         self.circelMenuView.isHidden = true
         self.view.isUserInteractionEnabled = true
     }
@@ -40,35 +61,11 @@ class MenuImageModalViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.125) {
             UIView.animate(withDuration: 5.0, delay: 0.125, options: [.repeat, .curveLinear] , animations: {
                 self.circelMenuView.isHidden = false
-                self.menuImageModalView.expandingCircelLayerAnimation()
+                self.menuImageModalView.expandingCircelLayerAnimation(view: self.circelMenuView, duration: 1.5)
                 self.circelMenuView.zoom(duration: 1.0, force: 2)
                 self.circelMenuView.rotate360()
             })
         }
-    }
-    
-    private func expandingCircelLayerAnimation(view: UIView) {
-        
-        let bounds = CGRect(x: 0, y: 0, width: 60, height: 60)
-        let rectShape = CAShapeLayer()
-        rectShape.bounds = bounds
-        rectShape.position = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
-        rectShape.cornerRadius = bounds.width / 2
-        view.layer.addSublayer(rectShape)
-        
-        rectShape.fillColor = UIColor.blue.withAlphaComponent(0.4).cgColor
-        
-        let startShape = UIBezierPath(roundedRect: bounds, cornerRadius: 30).cgPath
-        let endShape = UIBezierPath(roundedRect: CGRect(x: -UIScreen.main.bounds.width, y: -UIScreen.main.bounds.height, width: UIScreen.main.bounds.width*2, height: UIScreen.main.bounds.width*2), cornerRadius: 500).cgPath
-        
-        rectShape.path = startShape
-        let animation = CABasicAnimation(keyPath: "path")
-        animation.toValue = endShape
-        animation.duration = 1.0
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
-        animation.fillMode = kCAFillModeBoth
-        animation.isRemovedOnCompletion = false
-        rectShape.add(animation, forKey: animation.keyPath)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -122,7 +119,7 @@ class MenuImageModalViewController: UIViewController {
                 completion(MenuImage.write)
             })
         }
-
+        
     }
     
 }

@@ -16,48 +16,50 @@ class ImageViewController: ViewController {
     fileprivate var sectionImageViewModel: [SectionImageViewModel] = {
         let sectionImageViewModel1 = SectionImageViewModel(
             sectionName: "MY IMPIRARION",
-            images: [ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/236x/14/b6/e2/14b6e2791e19809613e3ad67f636dc24.jpg",
-                                height: 0,
-                                width: 0,
-                                toneColor: UIColor.red),
-                     ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/90/d0/3f/90d03fc5ab177f876db613703c6b97e3.jpg",
-                                height: 0,
-                                width: 0,
-                                toneColor: UIColor.red),
-                     ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/93/89/17/938917a98b1aeb2e32daf6a1f8b5f3b4.jpg",
-                                height: 0,
-                                width: 0,
-                                toneColor: UIColor.red),
-                     ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/ff/e8/5f/ffe85feb88087d62571eef2cc2d9cfa9.jpg",
-                                height: 0,
-                                width: 0,
-                                toneColor: UIColor.red),
-                     ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/16/c9/37/16c9371d6188227a4a7a8c6f5df86816.jpg",
-                                height: 0,
-                                width: 0,
-                                toneColor: UIColor.red)])
+            images: [
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/236x/14/b6/e2/14b6e2791e19809613e3ad67f636dc24.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/90/d0/3f/90d03fc5ab177f876db613703c6b97e3.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/93/89/17/938917a98b1aeb2e32daf6a1f8b5f3b4.jpg",
+                           height: 700,
+                           width: 400,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/ff/e8/5f/ffe85feb88087d62571eef2cc2d9cfa9.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/16/c9/37/16c9371d6188227a4a7a8c6f5df86816.jpg",
+                           height: 700,
+                           width: 400,
+                           toneColor: UIColor.red)])
         let sectionImageViewModel2 = SectionImageViewModel(
             sectionName: "COLORS",
             images: [ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/4d/d6/b8/4dd6b87b7fba7448edc64656223482a9.jpg",
-                                height: 0,
-                                width: 0,
+                                height: 400,
+                                width: 700,
                                 toneColor: UIColor.red),
                      ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/564x/f6/6c/a4/f66ca4288f5fce57992bd13db742c8d2.jpg",
-                                height: 0,
-                                width: 0,
+                                height: 400,
+                                width: 700,
                                 toneColor: UIColor.red),
                      ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/564x/ee/47/be/ee47be7b84b4002ebf500e77d03380ab.jpg",
-                                height: 0,
-                                width: 0,
+                                height: 700,
+                                width: 400,
                                 toneColor: UIColor.red),
                      ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/236x/3c/8e/8f/3c8e8f8e545df7b67436f0f593f20311.jpg",
-                                height: 0,
-                                width: 0,
+                                height: 400,
+                                width: 700,
                                 toneColor: UIColor.red),
                      ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/f6/ed/9e/f6ed9e479ee7eb73ff11639bfe4d6d60.jpg",
-                                height: 0,
-                                width: 0,
-                                toneColor: UIColor.red)])
+                                height: 700,
+                                width: 400,
+                                toneColor: UIColor.red)
+            ])
         return [sectionImageViewModel1, sectionImageViewModel2]
     }()
     
@@ -79,7 +81,8 @@ class ImageViewController: ViewController {
                     print("CLOSE")
                 case .delete:
                     print("DELETE")
-                    self.collectionView.deleteAnaimationCell(indexPath: indexPath)
+                    self.collectionView.sectionImageViewModel[indexPath.section].images.remove(at: indexPath.row)
+                    self.collectionView.deleteItemAnimation(indexPath: indexPath)
                 case .share:
                     print("SHARE")
                 case .edit:
@@ -91,10 +94,13 @@ class ImageViewController: ViewController {
                 }
             })
             
-            if let popoverController = vc.popoverPresentationController, let cell = self.collectionView.cellForItem(at: indexPath) {
-                popoverController.sourceView = cell
-                popoverController.sourceRect = CGRect(x: cell.bounds.midX, y: cell.bounds.midY, width: 0, height: 0)
-                popoverController.permittedArrowDirections = []
+            if let cell = self.collectionView.cellForItem(at: indexPath) {
+                vc.sourceRect = CGRect(x: cell.frame.origin.x, y: cell.frame.origin.y, width: 0, height: 0)
+                if let popoverController = vc.popoverPresentationController {
+                    popoverController.sourceView = cell
+                    popoverController.sourceRect = CGRect(x: cell.frame.origin.x, y: cell.frame.origin.y, width: 0, height: 0)
+                    popoverController.permittedArrowDirections = []
+                }
             }
             self.present(vc, animated: false, completion: nil)
         }

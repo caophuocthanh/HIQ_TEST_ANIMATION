@@ -65,19 +65,28 @@ extension UIView {
         self.layer.add(movement, forKey: "move")
     }
     
-     func expandingCircelLayerAnimation(duration: CFTimeInterval = 1.5) {
+    func expandingCircelLayerAnimation(view: View, duration: CFTimeInterval = 1.5) {
         
-        let bounds = CGRect(x: 0, y: 0, width: 60, height: 60)
+        let bounds = CGRect(
+            x: view.frame.origin.x,
+            y: view.frame.origin.y,
+            width: 60,
+            height: 60)
+        
         let rectShape = CAShapeLayer()
         rectShape.bounds = bounds
-        rectShape.position = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
-        rectShape.cornerRadius = bounds.width / 2
+        rectShape.position = view.center
+        rectShape.cornerRadius = 30
         self.layer.addSublayer(rectShape)
         
         rectShape.fillColor = UIColor.blue.withAlphaComponent(0.4).cgColor
         
         let startShape = UIBezierPath(roundedRect: bounds, cornerRadius: 30).cgPath
-        let endShape = UIBezierPath(roundedRect: CGRect(x: -450, y: -450, width: 1000, height: 1000), cornerRadius: 500).cgPath
+        let endShape = UIBezierPath(roundedRect: CGRect(
+            x: -UIScreen.main.bounds.height,
+            y: -UIScreen.main.bounds.height,
+            width: UIScreen.main.bounds.height*2.5,
+            height: UIScreen.main.bounds.height*2.5), cornerRadius: UIScreen.main.bounds.height).cgPath
         
         rectShape.path = startShape
         let animation = CABasicAnimation(keyPath: "path")

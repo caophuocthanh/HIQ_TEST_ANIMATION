@@ -13,12 +13,26 @@ class FirstViewController: ViewController {
     fileprivate let collectionView: FirstCollectionView = FirstCollectionView()
     
     fileprivate var firstViewModel: FistCollectionViewModel = {
-        let menuViewModels = [MenuViewModel(name: "Documents", image: UIImage(named: "pencil-icon")!, color: UIColor.red),
-                              MenuViewModel(name: "Images", image: UIImage(named: "search-icon")!, color: UIColor.orange),
-                              MenuViewModel(name: "Videos", image: UIImage(named: "location-icon")!, color: UIColor.lightGray),
-                              MenuViewModel(name: "System", image: UIImage(named: "setting-icon")!, color: UIColor.purple),
-                              MenuViewModel(name: "Contacts", image: UIImage(named: "share-icon")!, color: UIColor.green),
-                              MenuViewModel(name: "Contacts", image: UIImage(named: "share-icon")!, color: UIColor.green)]
+        let menuViewModels = [
+            MenuViewModel(name: "Documents",
+                          image: UIImage(named: "pencil-icon")!,
+                          color: UIColor.red),
+            MenuViewModel(name: "Images",
+                          image: UIImage(named: "search-icon")!,
+                          color: UIColor.orange),
+            MenuViewModel(name: "Videos",
+                          image: UIImage(named: "location-icon")!,
+                          color: UIColor.lightGray),
+            MenuViewModel(name: "System",
+                          image: UIImage(named: "setting-icon")!,
+                          color: UIColor.purple),
+            MenuViewModel(name: "Contacts",
+                          image: UIImage(named: "share-icon")!,
+                          color: UIColor.green),
+            MenuViewModel(name: "Contacts",
+                          image: UIImage(named: "share-icon")!,
+                          color: UIColor.green)
+        ]
         let imageURLHeaderString = DummyData.dumpImage
         let firstViewModel = FistCollectionViewModel(imageURLHeaderString: imageURLHeaderString, menuViewModels: menuViewModels)
         return firstViewModel

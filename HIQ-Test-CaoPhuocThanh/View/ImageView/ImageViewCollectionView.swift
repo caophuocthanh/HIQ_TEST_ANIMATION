@@ -47,17 +47,12 @@ extension ImageViewCollectionView: UICollectionViewDelegate {
 extension ImageViewCollectionView: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        switch indexPath.row {
-        case 0, 1:
+        
+        let image = self.sectionImageViewModel[indexPath.section].images[indexPath.row]
+        if image.width > image.height {
             return CGSize(width: self.bounds.width/2, height: self.bounds.width/3)
-        case 3:
-            return CGSize(width: (self.bounds.width - 4)/2, height: self.bounds.width/3)
-        case 2 ,4:
+        } else {
             return CGSize(width: (self.bounds.width - 4)/4, height: self.bounds.width/3)
-        case 6, 7, 8:
-            return CGSize(width: self.bounds.width/2, height: self.bounds.width/3)
-        default:
-            return CGSize(width: self.bounds.width/2, height: self.bounds.width/3)
         }
     }
     
