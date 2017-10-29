@@ -95,7 +95,8 @@ class ImageViewController: ViewController {
             })
             
             if let cell = self.collectionView.cellForItem(at: indexPath) {
-                vc.sourceRect = CGRect(x: cell.frame.origin.x, y: cell.frame.origin.y, width: 0, height: 0)
+                vc.sourceView = cell
+                //vc.sourceRect = CGRect(x: cell.frame.origin.x, y: cell.frame.origin.y, width: 0, height: 0)
                 if let popoverController = vc.popoverPresentationController {
                     popoverController.sourceView = cell
                     popoverController.sourceRect = CGRect(x: cell.frame.origin.x, y: cell.frame.origin.y, width: 0, height: 0)

@@ -13,7 +13,15 @@ class MenuImageModalViewController: UIViewController {
     fileprivate let circelMenuView = CircelMenuView()
     fileprivate let menuImageModalView = MenuImageModalView()
     
-    var sourceRect: CGRect = CGRect(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.width/2, width: 120, height: 120)
+    private var sourceRect: CGRect = CGRect(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.width/2, width: 120, height: 120)
+    
+    var sourceView: UIView? {
+        didSet{
+            if let sourceView = self.sourceView {
+                self.sourceRect = CGRect(x: sourceView.center.x, y: sourceView.center.y, width: 120, height: 120)
+            }
+        }
+    }
     
     enum MenuImage: Int {
         case close = 0
@@ -31,8 +39,8 @@ class MenuImageModalViewController: UIViewController {
         
         self.menuImageModalView.visualInside(self.view, edgeInsets: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
         
-        var x = sourceRect.origin.x
-        var y = sourceRect.origin.y
+        var x = self.sourceView != nil ? (self.sourceView!.center.x - self.sourceView!.bounds.width/2) : sourceRect.origin.x
+        var y = self.sourceView?.center.y ?? sourceRect.origin.y
         
         if x + 170 > UIScreen.main.bounds.width {
             x = UIScreen.main.bounds.width -  (170 + 36)
