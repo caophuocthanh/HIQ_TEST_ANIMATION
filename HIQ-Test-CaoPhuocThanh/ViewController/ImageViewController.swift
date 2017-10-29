@@ -39,26 +39,47 @@ class ImageViewController: ViewController {
                            toneColor: UIColor.red)])
         let sectionImageViewModel2 = SectionImageViewModel(
             sectionName: "COLORS",
-            images: [ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/4d/d6/b8/4dd6b87b7fba7448edc64656223482a9.jpg",
-                                height: 400,
-                                width: 700,
-                                toneColor: UIColor.red),
-                     ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/564x/f6/6c/a4/f66ca4288f5fce57992bd13db742c8d2.jpg",
-                                height: 400,
-                                width: 700,
-                                toneColor: UIColor.red),
-                     ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/564x/ee/47/be/ee47be7b84b4002ebf500e77d03380ab.jpg",
-                                height: 700,
-                                width: 400,
-                                toneColor: UIColor.red),
-                     ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/236x/3c/8e/8f/3c8e8f8e545df7b67436f0f593f20311.jpg",
-                                height: 400,
-                                width: 700,
-                                toneColor: UIColor.red),
-                     ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/f6/ed/9e/f6ed9e479ee7eb73ff11639bfe4d6d60.jpg",
-                                height: 700,
-                                width: 400,
-                                toneColor: UIColor.red)
+            images: [
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/4d/d6/b8/4dd6b87b7fba7448edc64656223482a9.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/564x/f6/6c/a4/f66ca4288f5fce57992bd13db742c8d2.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/564x/ee/47/be/ee47be7b84b4002ebf500e77d03380ab.jpg",
+                           height: 700,
+                           width: 400,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/236x/3c/8e/8f/3c8e8f8e545df7b67436f0f593f20311.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/f6/ed/9e/f6ed9e479ee7eb73ff11639bfe4d6d60.jpg",
+                           height: 700,
+                           width: 400,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/4d/d6/b8/4dd6b87b7fba7448edc64656223482a9.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/564x/f6/6c/a4/f66ca4288f5fce57992bd13db742c8d2.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/564x/ee/47/be/ee47be7b84b4002ebf500e77d03380ab.jpg",
+                           height: 700,
+                           width: 400,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/236x/3c/8e/8f/3c8e8f8e545df7b67436f0f593f20311.jpg",
+                           height: 400,
+                           width: 700,
+                           toneColor: UIColor.red),
+                ImageModel(imageURLString: "https://s-media-cache-ak0.pinimg.com/474x/f6/ed/9e/f6ed9e479ee7eb73ff11639bfe4d6d60.jpg",
+                           height: 700,
+                           width: 400,
+                           toneColor: UIColor.red)
             ])
         return [sectionImageViewModel1, sectionImageViewModel2]
     }()
@@ -96,7 +117,6 @@ class ImageViewController: ViewController {
             
             if let cell = self.collectionView.cellForItem(at: indexPath) {
                 vc.sourceView = cell
-                //vc.sourceRect = CGRect(x: cell.frame.origin.x, y: cell.frame.origin.y, width: 0, height: 0)
                 if let popoverController = vc.popoverPresentationController {
                     popoverController.sourceView = cell
                     popoverController.sourceRect = CGRect(x: cell.frame.origin.x, y: cell.frame.origin.y, width: 0, height: 0)

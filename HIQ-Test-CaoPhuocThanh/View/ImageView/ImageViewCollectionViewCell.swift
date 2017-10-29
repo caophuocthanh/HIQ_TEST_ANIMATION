@@ -24,6 +24,8 @@ class ImageViewCollectionViewCell: CollectionViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         self.imageView.image = nil
+        self.imageView.isHidden = false
+        self.imageView.transform = CGAffineTransform(translationX: 0, y: 0)
     }
     
     override func loadView() {
