@@ -16,7 +16,7 @@ class ImageViewCollectionView: CollectionView {
         super.loadView()
         
         self.register(ImageViewCollectionViewCell.self, forCellWithReuseIdentifier: ImageViewCollectionViewCell.reuseIdentifier())
-        self.register(ImageViewCollectionHeaderViewCell.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: ImageViewCollectionHeaderViewCell.reuseIdentifier())
+        self.register(ImageViewCollectionHeaderViewCell.self, forCellWithReuseIdentifier: ImageViewCollectionHeaderViewCell.reuseIdentifier())
         
         self.delegate = self
         self.dataSource = self
@@ -38,7 +38,7 @@ class ImageViewCollectionView: CollectionView {
 extension ImageViewCollectionView: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        collectionView.cellForItem(at: indexPath)?.pop(0.5)
+        collectionView.cellForItem(at: indexPath)?.pop(0.3)
         self._handleDidSelectedAtCell?(indexPath)
     }
     
@@ -47,12 +47,15 @@ extension ImageViewCollectionView: UICollectionViewDelegate {
 extension ImageViewCollectionView: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
-        let image = self.sectionImageViewModel[indexPath.section].images[indexPath.row]
-        if image.width > image.height {
-            return CGSize(width: self.bounds.width/2, height: self.bounds.width/3)
+        if indexPath.row == 0 {
+            return CGSize(width: self.bounds.width, height: 50)
         } else {
-            return CGSize(width: (self.bounds.width - 4)/4, height: self.bounds.width/3)
+            let image = self.sectionImageViewModel[indexPath.section].images[indexPath.row - 1]
+            if image.width > image.height {
+                return CGSize(width: self.bounds.width/2, height: self.bounds.width/3)
+            } else {
+                return CGSize(width: (self.bounds.width - 4)/4, height: self.bounds.width/3)
+            }
         }
     }
     
@@ -60,25 +63,21 @@ extension ImageViewCollectionView: UICollectionViewDelegateFlowLayout {
 
 extension ImageViewCollectionView: UICollectionViewDataSource {
     
-    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let cell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: ImageViewCollectionHeaderViewCell.reuseIdentifier(), for: indexPath) as! ImageViewCollectionHeaderViewCell
-        cell.titleString = self.sectionImageViewModel[indexPath.section].sectionName
-        return cell
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSize(width: self.bounds.width, height: 50)
-    }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell: ImageViewCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: ImageViewCollectionViewCell.reuseIdentifier(), for: indexPath) as! ImageViewCollectionViewCell
-        cell.imageURLString = self.sectionImageViewModel[indexPath.section].images[indexPath.row].imageURLString
-        return cell
+        if indexPath.row == 0 {
+            let cell: ImageViewCollectionHeaderViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: ImageViewCollectionHeaderViewCell.reuseIdentifier(), for: indexPath) as! ImageViewCollectionHeaderViewCell
+            cell.titleString = self.sectionImageViewModel[indexPath.section].sectionName
+            return cell
+        } else {
+            let cell: ImageViewCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: ImageViewCollectionViewCell.reuseIdentifier(), for: indexPath) as! ImageViewCollectionViewCell
+            cell.imageURLString = self.sectionImageViewModel[indexPath.section].images[indexPath.row - 1].imageURLString
+            return cell
+        }
     }
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.sectionImageViewModel[section].images.count
+        return self.sectionImageViewModel[section].images.count + 1
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {

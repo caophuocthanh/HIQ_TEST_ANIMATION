@@ -68,7 +68,7 @@ class MenuImageModalViewController: UIViewController {
             UIView.animate(withDuration: 5.0, delay: 0.125, options: [.repeat, .curveLinear] , animations: {
                 self.circelMenuView.isHidden = false
                 self.menuImageModalView.expandingCircelLayerAnimation(view: self.circelMenuView, duration: 1.5)
-                self.circelMenuView.zoom(duration: 1.0, force: 2)
+                self.circelMenuView.zoom(duration: 0.8, force: 2)
                 self.circelMenuView.rotate360()
             })
         }

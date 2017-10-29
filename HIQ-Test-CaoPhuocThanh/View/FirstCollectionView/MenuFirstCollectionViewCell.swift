@@ -70,8 +70,8 @@ class MenuFirstCollectionViewCell: CollectionViewCell {
         self.contentImageView.visualSquare(.width)
         self.contentImageView.visualCenterX(self.contentView)
         
-        self.contentImageView.visual("H:|-16-[v]-16-|", views: ["v": self.imageView])
-        self.contentImageView.visual("V:|-16-[v]-16-|", views: ["v": self.imageView])
+        self.contentImageView.visual("H:|-18-[v]-18-|", views: ["v": self.imageView])
+        self.contentImageView.visual("V:|-18-[v]-18-|", views: ["v": self.imageView])
         
         // Label
         self.contentView.visual("H:|-[v]-|", views: ["v": self.labelLabel])

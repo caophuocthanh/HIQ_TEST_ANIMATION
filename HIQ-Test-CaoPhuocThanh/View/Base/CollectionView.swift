@@ -39,6 +39,7 @@ class CollectionView: UICollectionView {
         let cells = self.indexPathsForVisibleItems
             .sorted { $0.section < $1.section || $0.row < $1.row }
             .sorted { $0.section < $1.section || $0.row < $1.row }
+            .sorted { $0.section < $1.section || $0.row < $1.row }
             .flatMap { self.cellForItem(at: $0) }
         
         let tableHeight: CGFloat = self.bounds.size.height

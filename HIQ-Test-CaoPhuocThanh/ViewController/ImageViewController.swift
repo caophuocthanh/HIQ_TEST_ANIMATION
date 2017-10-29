@@ -102,7 +102,7 @@ class ImageViewController: ViewController {
                     print("CLOSE")
                 case .delete:
                     print("DELETE")
-                    self.collectionView.sectionImageViewModel[indexPath.section].images.remove(at: indexPath.row)
+                    self.collectionView.sectionImageViewModel[indexPath.section].images.remove(at: indexPath.row - 1)
                     self.collectionView.deleteItemAnimation(indexPath: indexPath)
                 case .share:
                     print("SHARE")

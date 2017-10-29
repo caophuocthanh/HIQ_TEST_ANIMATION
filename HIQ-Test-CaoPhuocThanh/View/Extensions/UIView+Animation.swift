@@ -12,7 +12,7 @@ extension UIView {
     
     func pop(_ force: CGFloat = 0.1) {
         let animation = CAKeyframeAnimation(keyPath: "transform.scale")
-        animation.values = [0, 0.1*force, -0.1*force, 0.1*force, 0]
+        animation.values = [0, -0.1*force, 0.0 ,0.05*force, 0.0]
         animation.keyTimes = [0, 0.2, 0.4, 0.6, 0.8, 1]
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
         animation.duration = 0.8
@@ -47,7 +47,7 @@ extension UIView {
         animation.values = [-0.4*force, -0.3*force ,-0.2*force ,-0.1*force, 0]
         animation.keyTimes = [0, 0.2, 0.4, 0.6, 0.8, 1]
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
-        animation.duration = 1.5
+        animation.duration = 0.8
         animation.isAdditive = true
         animation.repeatCount = 1
         animation.isRemovedOnCompletion = true
@@ -61,11 +61,11 @@ extension UIView {
         movement.isAdditive = true
         movement.fromValue =  fromPoint
         movement.toValue =  toPoint
-        movement.duration = 1.5
+        movement.duration = 0.8
         self.layer.add(movement, forKey: "move")
     }
     
-    func expandingCircelLayerAnimation(view: View, duration: CFTimeInterval = 1.5) {
+    func expandingCircelLayerAnimation(view: View, duration: CFTimeInterval = 0.8) {
         
         let bounds = CGRect(
             x: view.frame.origin.x,
