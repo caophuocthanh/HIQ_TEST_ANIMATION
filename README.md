@@ -5,4 +5,4 @@ How to use ?
  - Install cocaopods and make sure run command "pods install". Thanks.
 
 
-<video preload="none" playsinline="" poster="https://pbs.twimg.com/tweet_video_thumb/DNIN4jxUIAAgT7u.jpg" src="https://video.twimg.com/tweet_video/DNIN4jxUIAAgT7u.mp4" type="video/mp4" style="width: 100%; height: 100%; position: absolute; transform: rotate(0deg) scale(1);"></video>
+<img alt="" class="media-image" src="https://pbs.twimg.com/media/DOSEvznVQAEDo0l.jpg:large" data-height="762" data-width="1032" style="width: 882px; height: 651px; margin-top: 0px; margin-bottom: 0px;">
