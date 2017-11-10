@@ -1,5 +1,5 @@
-# HIQ_TEST_ANIMATION
-HIQ_TEST_ANIMATION
+# Image Collection Animation
+Image-Collection-Animation
 
 How to use ?
  - Install cocaopods and make sure run command "pods install". Thanks.
